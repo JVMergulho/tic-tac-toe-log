@@ -1,2 +1,2 @@
 # tic-tac-toe-log
-Jogo da velha simples no terminal. apenas para treinar conceitosbásicos de programação
+Jogo da velha simples no terminal. Apenas para treinar conceitos básicos de programação
