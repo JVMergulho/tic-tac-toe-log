@@ -39,13 +39,15 @@ def vitoria(casas):
 
     # Caso horizontal
     for i in range(0, 3):
-        if casas[i][0] == casas[i][1] and casas[i][1] == casas[i][2]:
-            check = True
+        if casas[i][0]!=' ':
+            if casas[i][0] == casas[i][1] and casas[i][1] == casas[i][2]:
+                check = True
 
     # Caso vertical
     for i in range(0, 3):
-        if casas[0][i] == casas[1][i] and casas[1][i] == casas[2][i]:
-            check = True
+        if casas[0][i] != ' ':
+            if casas[0][i] == casas[1][i] and casas[1][i] == casas[2][i]:
+                check = True
 
     # Casos diagonais
     if casas[0][2] != ' ':
